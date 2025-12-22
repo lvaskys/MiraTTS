@@ -49,11 +49,18 @@ I recommend reading these 2 blogs to better easily understand LLM tts models and
 - How they work: https://huggingface.co/blog/YatharthS/llm-tts-models
 - How to optimize them: https://huggingface.co/blog/YatharthS/making-neutts-200x-realtime
 
+## Training
+Released training code! You can now train the model to be multilingual, multi-speaker, or support audio events on any local or cloud gpu!
+
+Kaggle notebook: https://www.kaggle.com/code/yatharthsharma888/miratts-training
+
+Colab notebook: https://colab.research.google.com/drive/1IprDyaMKaZrIvykMfNrxWFeuvj-DQPII?usp=sharing
+
 ## Next steps
 - [x] Release code and model
+- [x] Release training code
 - [ ] Support low latency streaming
 - [ ] Release native 48khz bicodec
-- [ ] Support multilingual models
       
 ## Final notes
 Thanks very much to the authors of Spark-TTS. Thanks for checking out this repository as well.
