@@ -68,3 +68,12 @@ Thanks very much to the authors of Spark-TTS and unsloth. Thanks for checking ou
 Stars would be well appreciated, thank you.
 
 Email: yatharthsharma3501@gmail.com
+
+## Final final notes
+Gradio code adapted from https://huggingface.co/spaces/Gapeleon/Mira-TTS
+
+This is an attempt at a vllm implementation of [MiraTTS](https://huggingface.co/YatharthS/MiraTTS). Mostly for my own curiousity and learning. It currently may still need some tweaking of requirements.txt and also seems to run best on WSL (or probably linux as well). This is probably a quirk of vllm which is hard to get dependencies working correctly.
+
+For short, few sentences batches of text, it actually seems to perform just slightly faster than lmdeploy. I haven't tested large batches. Quality is practicaly the same, but for whatever reason, is slightly more prone to hallucinating "umms" and small things like that.
+
+One real-world benefit right now would be the ability to use non nvidia gpus.
